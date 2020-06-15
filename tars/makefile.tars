@@ -10,7 +10,7 @@ GO      = ${GOROOT}/bin/go
 
 #-------------------------------------------------------------------------------
 libpath=${subst :, ,$(GOPATH)}
-TARS2GO     := $(firstword $(subst :, , $(GOPATH)))/bin/tars2go
+TARS2GO     := $(firstword $(subst :, , $(GOPATH)))/bin/w-tars2go
 
 ifeq (,$(findstring -outdir,$(J2GO_FLAG)))
     J2GO_FLAG   += -outdir=vendor
