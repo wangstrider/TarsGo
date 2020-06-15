@@ -7,10 +7,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/TarsCloud/TarsGo/tars/protocol/res/basef"
-	"github.com/TarsCloud/TarsGo/tars/protocol/res/endpointf"
-	"github.com/TarsCloud/TarsGo/tars/protocol/res/requestf"
-	"github.com/TarsCloud/TarsGo/tars/transport"
+	"github.com/wangstrider/TarsGo/tars/protocol/res/basef"
+	"github.com/wangstrider/TarsGo/tars/protocol/res/endpointf"
+	"github.com/wangstrider/TarsGo/tars/protocol/res/requestf"
+	"github.com/wangstrider/TarsGo/tars/transport"
 )
 
 var reconnectMsg = "_reconnect_"

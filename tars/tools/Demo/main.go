@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/TarsCloud/TarsGo/tars"
+	"github.com/wangstrider/TarsGo/tars"
 
 	"_APP_"
 )

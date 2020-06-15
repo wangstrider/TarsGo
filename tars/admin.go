@@ -10,8 +10,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/TarsCloud/TarsGo/tars/util/debug"
-	logger "github.com/TarsCloud/TarsGo/tars/util/rogger"
+	"github.com/wangstrider/TarsGo/tars/util/debug"
+	logger "github.com/wangstrider/TarsGo/tars/util/rogger"
 )
 
 // Admin struct

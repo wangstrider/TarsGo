@@ -1,6 +1,6 @@
 package tars
 
-import "github.com/TarsCloud/TarsGo/tars/protocol/res/notifyf"
+import "github.com/wangstrider/TarsGo/tars/protocol/res/notifyf"
 
 const (
 	NOTIFY_NORMAL = 0

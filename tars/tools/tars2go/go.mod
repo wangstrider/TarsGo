@@ -1,3 +1,3 @@
-module github.com/TarsCloud/TarsGo/tars/tools/tars2go
+module github.com/wangstrider/TarsGo/tars/tools/tars2go
 
 go 1.12

@@ -8,14 +8,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/TarsCloud/TarsGo/tars/model"
-	"github.com/TarsCloud/TarsGo/tars/protocol"
-	"github.com/TarsCloud/TarsGo/tars/protocol/res/basef"
-	"github.com/TarsCloud/TarsGo/tars/protocol/res/requestf"
-	"github.com/TarsCloud/TarsGo/tars/util/current"
-	"github.com/TarsCloud/TarsGo/tars/util/endpoint"
-	"github.com/TarsCloud/TarsGo/tars/util/rtimer"
-	"github.com/TarsCloud/TarsGo/tars/util/tools"
+	"github.com/wangstrider/TarsGo/tars/model"
+	"github.com/wangstrider/TarsGo/tars/protocol"
+	"github.com/wangstrider/TarsGo/tars/protocol/res/basef"
+	"github.com/wangstrider/TarsGo/tars/protocol/res/requestf"
+	"github.com/wangstrider/TarsGo/tars/util/current"
+	"github.com/wangstrider/TarsGo/tars/util/endpoint"
+	"github.com/wangstrider/TarsGo/tars/util/rtimer"
+	"github.com/wangstrider/TarsGo/tars/util/tools"
 )
 
 var (
@@ -37,6 +37,10 @@ type ServantProxy struct {
 	version  int16
 	proto    model.Protocol
 	queueLen int32
+}
+
+func (s *ServantProxy) Init (comm *Communicator, objName string) {
+	s = newServantProxy(comm, objName)
 }
 
 func newServantProxy(comm *Communicator, objName string) *ServantProxy {

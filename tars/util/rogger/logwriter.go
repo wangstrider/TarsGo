@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/TarsCloud/TarsGo/tars/util/gtime"
+	"github.com/wangstrider/TarsGo/tars/util/gtime"
 )
 
 // DAY for rotate log by day

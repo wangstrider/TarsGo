@@ -11,7 +11,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/TarsCloud/TarsGo/tars/util/current"
+	"github.com/wangstrider/TarsGo/tars/util/current"
 )
 
 const (

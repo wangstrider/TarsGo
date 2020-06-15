@@ -5,7 +5,7 @@ package propertyf
 
 import (
 	"fmt"
-	"github.com/TarsCloud/TarsGo/tars/protocol/codec"
+	"github.com/wangstrider/TarsGo/tars/protocol/codec"
 )
 
 //StatPropMsgBody strcut implement

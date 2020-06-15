@@ -3,7 +3,7 @@ package tars
 import (
 	"time"
 
-	"github.com/TarsCloud/TarsGo/tars/protocol/res/requestf"
+	"github.com/wangstrider/TarsGo/tars/protocol/res/requestf"
 )
 
 // HashType is the hash type

@@ -5,8 +5,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/TarsCloud/TarsGo/tars/util/rogger"
-	"github.com/TarsCloud/TarsGo/tars/util/rtimer"
+	"github.com/wangstrider/TarsGo/tars/util/rogger"
+	"github.com/wangstrider/TarsGo/tars/util/rtimer"
 )
 
 // TLOG  is logger for transport.

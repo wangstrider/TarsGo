@@ -43,17 +43,17 @@ go env -w GO111MODULE=auto
 
 cd $GOPATH
 ```
-go get -u github.com/TarsCloud/TarsGo/tars
+go get -u github.com/wangstrider/TarsGo/tars
 ```
 
 now tarsgo downloaded to path:
 ```
-$GOPATH/src/github.com/TarsCloud/TarsGo/
+$GOPATH/src/github.com/wangstrider/TarsGo/
 ```
 
 After tarsgo src be downloaded, please install tars2go:
 ```
-go install $GOPATH/src/github.com/TarsCloud/TarsGo/tars/tools/tars2go
+go install $GOPATH/src/github.com/wangstrider/TarsGo/tars/tools/tars2go
 ```
 
 ## Quickstart
@@ -92,7 +92,7 @@ module TestApp
 ##### 1.2.1 build tars2go
 If not install tars2go, Compile and install the tars2go tools.
 ```
-    go install $GOPATH/src/github.com/TarsCloud/TarsGo/tars/tools/tars2go
+    go install $GOPATH/src/github.com/wangstrider/TarsGo/tars/tools/tars2go
 ```
 
 ##### 1.2.2 compile the tars file and translate into go file
@@ -102,7 +102,7 @@ If not install tars2go, Compile and install the tars2go tools.
 package main
 
 import (
-    "github.com/TarsCloud/TarsGo/tars"
+    "github.com/wangstrider/TarsGo/tars"
 
     "TestApp"
 )
@@ -321,7 +321,7 @@ package main
 
 import (
     "fmt"
-    "github.com/TarsCloud/TarsGo/tars"
+    "github.com/wangstrider/TarsGo/tars"
     "TestApp"
 )
 //tars.Communicator should only init once and be global
@@ -467,7 +467,7 @@ package main
 
 import (
     "fmt"
-    "github.com/TarsCloud/TarsGo/tars"
+    "github.com/wangstrider/TarsGo/tars"
     "TestApp"
 )
 
@@ -497,7 +497,7 @@ package main
 
 import (
     "fmt"
-    "github.com/TarsCloud/TarsGo/tars"
+    "github.com/wangstrider/TarsGo/tars"
     "time"
     "TestApp"
 )
@@ -678,7 +678,7 @@ User can setup remote configuration from OSS. See more detail in https://github.
 That is an example to illustrate how to use this api to get configuration file from remote.
 
 ```go
-import "github.com/TarsCloud/TarsGo/tars"
+import "github.com/wangstrider/TarsGo/tars"
 ...
 cfg := tars.GetServerConfig()
 remoteConf := tars.NewRConf(cfg.App, cfg.Server, cfg.BasePath)
@@ -760,7 +760,7 @@ package main
 
 import (
 	"net/http"
-	"github.com/TarsCloud/TarsGo/tars"
+	"github.com/wangstrider/TarsGo/tars"
 )
 
 func main() {

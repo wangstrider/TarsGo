@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/TarsCloud/TarsGo/tars/protocol/codec"
-	"github.com/TarsCloud/TarsGo/tars/protocol/res/requestf"
+	"github.com/wangstrider/TarsGo/tars/protocol/codec"
+	"github.com/wangstrider/TarsGo/tars/protocol/res/requestf"
 )
 
 

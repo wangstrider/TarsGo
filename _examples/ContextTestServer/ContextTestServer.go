@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/TarsCloud/TarsGo/tars"
+	"github.com/wangstrider/TarsGo/tars"
 
 	"StressTest"
 	"log"

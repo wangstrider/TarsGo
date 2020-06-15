@@ -1,4 +1,4 @@
-module github.com/TarsCloud/TarsGo
+module github.com/wangstrider/TarsGo
 
 go 1.13
 

@@ -12,10 +12,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/TarsCloud/TarsGo/tars/protocol/res/basef"
-	"github.com/TarsCloud/TarsGo/tars/util/current"
-	"github.com/TarsCloud/TarsGo/tars/util/gpool"
-	"github.com/TarsCloud/TarsGo/tars/util/grace"
+	"github.com/wangstrider/TarsGo/tars/protocol/res/basef"
+	"github.com/wangstrider/TarsGo/tars/util/current"
+	"github.com/wangstrider/TarsGo/tars/util/gpool"
+	"github.com/wangstrider/TarsGo/tars/util/grace"
 )
 
 type tcpHandler struct {
